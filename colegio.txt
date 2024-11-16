@@ -1,0 +1,53 @@
+===Base de datos colegio
+
+== Estructura de tabla para la tabla autores
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ID_Autor**//|int(11)|No|
+|Nombre|varchar(100)|No|
+|Nacionalidad|varchar(50)|Sí|NULL
+|Fecha_Nacimiento|date|Sí|NULL
+== Volcado de datos para la tabla autores
+
+== Estructura de tabla para la tabla cursos
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ID_Cursos**//|int(11)|No|
+|Nombre_Asignatura|varchar(100)|No|
+== Volcado de datos para la tabla cursos
+
+== Estructura de tabla para la tabla cursos_asignados
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ID_Cursos_asignados**//|int(11)|No|
+|ID_estudiantes|int(11)|No|
+|ID_cursos|int(11)|No|
+|ID_docentes|int(11)|No|
+== Volcado de datos para la tabla cursos_asignados
+
+== Estructura de tabla para la tabla docentes
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ID_Docentes**//|int(11)|No|
+|Nombre_Docente|varchar(100)|No|
+== Volcado de datos para la tabla docentes
+
+== Estructura de tabla para la tabla estudiantes
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ID_Estudiantes**//|int(11)|No|
+|Nombre_Estudiantes|varchar(100)|No|
+|Direccion|varchar(50)|Sí|NULL
+|Cursos|varchar(50)|Sí|NULL
+== Volcado de datos para la tabla estudiantes
+
